@@ -30,7 +30,6 @@ Web development
       <ul>
         <li>inside 2nd (1)</li>
         <li>inside 2nd (2)</li>
-
       </ul>
       <li>this is the third element</li>
     </ul>
