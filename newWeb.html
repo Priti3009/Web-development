@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation</title>
+    <style>
+        .container{
+            height: 5000px;
+        }
+        .navbar{
+           position: sticky;
+           top: 2px;
+            background-color: rgb(176, 176, 207);
+            border-radius: 14px ;
+          
+        }
+        .navbar ul{
+            overflow: auto;
+        }
+        .navbar li{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            float: left;
+           list-style: none;
+           margin: 13px 20px;
+         
+
+        }
+        .navbar li a{
+            padding: 3px 3px ;
+            text-decoration: none;
+            color: black;
+        }
+        .navbar li a:hover{
+            color:rgb(95, 44, 214);
+
+        }
+        .Search{
+            float: right;
+            padding: 10px;
+            
+        }
+        .navbar input{
+            border-radius: 14px;
+            border-color:rgb(17, 17, 59);
+        }
+        header{
+            border: 2px solid black;
+            margin: auto;
+            width:35%;
+
+        }
+        h3{
+            font-family: cursive;
+            margin: 0px;
+        }
+        img{
+            display: block;
+            margin: auto;
+            width: 35%;
+        }
+        .box{
+            display: inline-block;
+            border: 2px solid black;
+            width: 150px;
+            height: 150px;
+
+            margin: 4px;
+        }
+        #box3{
+            position: fixed;
+            right: 4px;
+           bottom: 10px;
+        }
+        #box2{
+            position: relative;
+            top:22px;
+            right: 100px;
+        }
+       
+    </style>
+</head>
+<body>
+    <header class="top">
+        <img src="https://img.freepik.com/free-vector/gradient-p-logo-template_23-2149372725.jpg?w=740&t=st=1711177456~exp=1711178056~hmac=93a2b9fa85d32cb91100cd2be8160f8780c393c12e3275aafcb85b456b4a4139" width=100px height=80px alt="Can not be displayed">
+        <h3>Welcome to Priti's Website</h3>
+
+    </header>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Servies</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <div class="Search">
+                 <input type="text" name="Name" placeholder="Search here" >
+            </div>
+        </ul>
+    </nav>
+    <div class="container">
+
+        <div class="box" id="box1">1</div>
+        <div class="box" id="box2">2</div>
+        <div class="box" id="box3">Chat with us</div>
+        <div class="box" id="box4">4</div>
+        
+    </div>
+</body>
+</html>
